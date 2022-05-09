@@ -1,0 +1,19 @@
+body img {
+	background-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.logo-header-div,
+#vo-content-logo-container {
+	display: none;
+}
+
+* {
+	box-shadow: none !important;
+}
+
+body {
+	background: rgba(0, 0, 0, 0.5);
+}
+.menuDiv {
+	transform: translateX(100px);
+}

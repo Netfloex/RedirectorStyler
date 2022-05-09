@@ -1,0 +1,23 @@
+html body.theme-dark {
+	--white: black;
+	--black-025: black;
+	--theme-primary-color: black;
+}
+
+[class*="marketing"],
+[id*="comments-link"],
+.-flair,
+.site-header,
+#sidebar,
+#left-sidebar,
+#footer,
+#post-form,
+.bg-black-750,
+.-logo,
+.js-research-toast {
+	display: none !important;
+}
+
+.s-input {
+	border: none;
+}

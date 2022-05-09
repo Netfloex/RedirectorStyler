@@ -1,0 +1,72 @@
+html {
+	color-scheme: dark;
+}
+[class^="FuncButton"] {
+	background: rgb(59, 59, 59);
+	color: unset;
+	border: none;
+	border-radius: 4px;
+	padding: 10px;
+	margin: 3px;
+}
+body {
+	background: #121212;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+h2.ExerciseTitle {
+	color: gray;
+}
+div.StdDiv,
+div.Feedback {
+	background-color: #121212;
+	color: white;
+}
+
+div.Feedback {
+	border: none;
+	background: #212121;
+}
+
+td[bgcolor] {
+	background: unset;
+}
+.style10 {
+	color: unset;
+}
+
+span {
+	color: gray;
+}
+.QuestionText,
+table,
+div,
+span,
+td,
+.FeedbackText,
+.FeedbackText span.CorrectAnswer,
+.FeedbackText span.Guess,
+.FeedbackText span.Answer {
+	color: white;
+}
+li.QuizQuestion {
+	border: none;
+}
+a {
+	color: #2196f3 !important;
+}
+img[src*="home"],
+img[src*="biologiepagina5"],
+#sidebar {
+	display: none;
+}
+
+img[src*="Navigatie"],
+img[src*="test"],
+img[src*="i"],
+img[src="antwoord.jpg"] {
+	filter: invert();
+}
+img[src*="duim"] {
+	filter: unset;
+}

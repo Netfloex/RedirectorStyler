@@ -1,0 +1,18 @@
+.header__logo,
+.header--aside,
+.feedback-btn,
+.footer,
+.js-header-logo {
+	display: none !important;
+}
+
+body {
+	--theme-col-bg-ui: black;
+	--theme-col-border-ui: black;
+	background-color: black;
+}
+
+.module {
+	background: black !important;
+	border: none !important;
+}

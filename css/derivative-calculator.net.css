@@ -1,0 +1,29 @@
+body {
+	color-scheme: dark;
+}
+html,
+body,
+#content,
+.formula,
+#calc,
+.tab,
+.tab.active,
+.calc-info,
+#calc div.calc-header > div,
+#check-answer-exit,
+[class*="button"],
+#plot,
+.plot-toolbox,
+.calc-look-up-definition {
+	background: #121212 !important;
+	color: white;
+	border: none;
+}
+#footer,
+#header,
+#pages,
+.left-col,
+#how-it-works,
+#icon-explanation {
+	display: none;
+}

@@ -1,0 +1,10 @@
+body {
+	--color-page-header-bg: black;
+	--color-canvas-default: black;
+	--color-btn-bg: black;
+	--color-canvas-subtle: black;
+	--color-header-bg: black;
+}
+span.d-none.d-sm-inline {
+	display: inline !important;
+}

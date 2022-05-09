@@ -1,0 +1,90 @@
+:root {
+	--main-color: #fff;
+	--main-bg-color: #000;
+
+	--main-bg-image: none;
+	--loading-color: #ddd;
+	--loading-text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.5);
+	--login-color: #eee;
+	--login-bg-color: rgba(0, 0, 0, 0.5);
+	--login-box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+	--login-border: none;
+	--login-border-radius: 7px;
+	--dropdown-menu-color: var(--main-color);
+	--dropdown-menu-bg-color: #121212;
+	--dropdown-menu-background-color: var(--dropdown-menu-bg-color);
+	--dropdown-menu-hover-bg-color: #48525c;
+	--dropdown-menu-hover-color: #eee;
+	--dropdown-menu-disable-color: #999;
+	--folders-color: #fff;
+	--folders-disabled-color: #aaa;
+	--folders-selected-color: #fff;
+	--folders-selected-bg-color: rgba(0, 0, 0, 0.5);
+	--folders-focused-color: #fff;
+	--folders-focused-bg-color: rgba(0, 0, 0, 0.7);
+	--folders-hover-color: #fff;
+	--folders-hover-bg-color: rgba(0, 0, 0, 0.5);
+	--folders-drop-color: #fff;
+	--folders-drop-bg-color: rgba(0, 0, 0, 0.5);
+	--settings-menu-color: #fff;
+	--settings-menu-selected-color: #fff;
+	--settings-menu-selected-bg-color: rgba(0, 0, 0, 0.5);
+	--settings-menu-hover-color: #fff;
+	--settings-menu-hover-bg-color: rgba(0, 0, 0, 0.5);
+	--message-list-toolbar-bg-color: var(--main-bg-color);
+	--fontMono: unset;
+}
+body {
+	color-scheme: dark;
+}
+
+.messageList,
+input,
+textarea,
+#rl-settings-subscreen,
+.messageView .messageItemHeader,
+.messageView,
+dialog,
+.messageView #messageItem .pgpEncrypted,
+.messageView #messageItem .pgpSigned,
+.messageView #messageItem .readReceipt,
+.messageView #messageItem .showImages {
+	background-color: var(--main-bg-color);
+	color: var(--main-color);
+}
+.btn,
+.select,
+select,
+.table-hover tbody tr:hover td,
+.table-hover tbody tr:hover th {
+	box-shadow: none;
+	background-color: #121212;
+	color: var(--main-color);
+}
+.dropdown-menu * + .dividerbar {
+	border-top: none;
+}
+.legend,
+#messageItem,
+.messageView #messageItem {
+	color: var(--main-color);
+}
+.legend,
+dialog header,
+dialog footer,
+.table td,
+.table th,
+#rl-popups > dialog,
+#rl-settings-subscreen,
+.messageList,
+.messageView,
+.alert-info,
+#V-PopupsCompose .b-attachment-place {
+	border-color: #555 !important;
+}
+.messageListItem {
+	border-left-color: transparent;
+}
+.messageView #messageItem .b-text-part a {
+	color: -webkit-link;
+}
