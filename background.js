@@ -1,7 +1,7 @@
 const redirect = {
-	"fonts\\.gstatic\\.com": "test.samtaen.nl",
+	"fonts\\.gstatic\\.com(.*)": "test.samtaen.nl$1",
 	"(\\w*)\\.?wikipedia.org(.*)": "wikiless.org$2?lang=$1",
-	"twitter\\.com(.*)": "nitter.com$1",
+	"twitter\\.com(.*)": "nitter.net$1",
 	"youtube\\.com(.*)": "yewtu.be$1",
 	"reddit\\.com(.*)": "libreddit.nl$1",
 	"(i\\.)?imgur.com(.*)": "i.bcow.xyz$2",
@@ -20,6 +20,7 @@ chrome.webRequest.onBeforeRequest.addListener(
 
 		if (match) {
 			const regex = new RegExp(match).exec(url.href);
+			if (!regex) return;
 			const redirectUrl = regex.reduce((prev, curr, i) => {
 				return prev.replace(`\$${i}`, curr);
 			}, "https://" + redirect[match]);

@@ -1,42 +1,42 @@
 html {
-	color-scheme: dark;
+	color-scheme: dark !important;
 }
 [class^="FuncButton"] {
-	background: rgb(59, 59, 59);
-	color: unset;
-	border: none;
-	border-radius: 4px;
-	padding: 10px;
-	margin: 3px;
+	background: rgb(59, 59, 59) !important;
+	color: unset !important;
+	border: none !important;
+	border-radius: 4px !important;
+	padding: 10px !important;
+	margin: 3px !important;
 }
 body {
-	background: #121212;
-	margin-left: 10%;
-	margin-right: 10%;
+	background: #121212 !important;
+	margin-left: 10% !important;
+	margin-right: 10% !important;
 }
 h2.ExerciseTitle {
-	color: gray;
+	color: gray !important;
 }
 div.StdDiv,
 div.Feedback {
-	background-color: #121212;
-	color: white;
+	background-color: #121212 !important;
+	color: white !important;
 }
 
 div.Feedback {
-	border: none;
-	background: #212121;
+	border: none !important;
+	background: #212121 !important;
 }
 
 td[bgcolor] {
-	background: unset;
+	background: unset !important;
 }
 .style10 {
-	color: unset;
+	color: unset !important;
 }
 
 span {
-	color: gray;
+	color: gray !important;
 }
 .QuestionText,
 table,
@@ -47,26 +47,33 @@ td,
 .FeedbackText span.CorrectAnswer,
 .FeedbackText span.Guess,
 .FeedbackText span.Answer {
-	color: white;
+	color: white !important;
 }
 li.QuizQuestion {
-	border: none;
+	border: none !important;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
 a {
-	color: #2196f3 !important;
+	color: #2196f3 !important ;
 }
 img[src*="home"],
 img[src*="biologiepagina5"],
 #sidebar {
-	display: none;
+	display: none !important;
 }
 
 img[src*="Navigatie"],
 img[src*="test"],
 img[src*="i"],
 img[src="antwoord.jpg"] {
-	filter: invert();
+	filter: invert() !important;
 }
 img[src*="duim"] {
-	filter: unset;
+	filter: unset !important;
 }
